@@ -9,11 +9,112 @@ body {
   display: flex;
 
   background-color: black;
+
+  flex-direction: column;
+  position: relative;
 }
 
 input {
   height: 40px;
   width: 40px;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+
+  background-color: black;
+
+  display: flex;
+}
+
+.header__text {
+  color: pink;
+
+  margin: auto;
+}
+
+.content {
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+
+  background-color: white;
+}
+
+.maincontent {
+  width: 70%;
+
+  margin: 10px;
+}
+
+#ind {
+  background-color: red;
+}
+
+#cont {
+  background-color: green;
+}
+
+#inf {
+  background-color: pink;
+}
+
+.sidebar {
+  width: 20%;
+
+  margin: 10px;
+
+  background-color: red;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  color: white;
+
+  text-decoration: none;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+
+  background-color: black;
+
+  display: flex;
+
+  margin-bottom: 0px;
+}
+
+.footer__text {
+  color: pink;
+
+  margin: auto;
+}
+
+.exit {
+  position: absolute;
+
+  height: 25px;
+  width: 25px;
+
+  right: 10px;
+  top: 10px;
+
+  background-image: url(../img.svg);
+  background-size: contain;
+
+  border-radius: 25px;
+
+  background-color: red;
 }
 
 .inputing {
@@ -31,6 +132,7 @@ input {
   margin: auto;
 
   display: flex;
+  position: relative;
 
   flex-direction: column;
 
