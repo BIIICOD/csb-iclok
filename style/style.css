@@ -1,0 +1,49 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-size: 40px;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+
+  background-color: black;
+}
+
+input {
+  height: 40px;
+  width: 40px;
+}
+
+.inputing {
+}
+
+.output {
+  text-align: center;
+}
+.form {
+  height: 500px;
+  width: 500px;
+
+  background-color: pink;
+
+  margin: auto;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: space-around;
+  align-items: center;
+}
+
+.calcbutton {
+  height: 30px;
+  width: 400px;
+
+  background-color: royalblue;
+  margin-top: 0px;
+
+  font-size: 20px;
+}
